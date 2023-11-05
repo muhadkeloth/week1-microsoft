@@ -1,0 +1,445 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 56px;
+    /* background-color: red; */
+
+}
+.navbarleft{
+    width: 50%;
+    height: 60px;
+    /* background-color: rgb(179, 255, 0); */
+    float: left;
+}
+.navbarimg{
+    width: 29%;
+    height: 60px;
+    /* background-color: rgb(255, 102, 0); */
+    float: left;
+}
+.navbarlogo{
+    margin-top: 12px;
+    margin-left: 82px;
+    width: 115px;
+}
+
+.navbarmenu{
+    width: 71%;
+    height: 60px;
+    /* background-color: rgb(255, 196, 0); */
+    float: left;
+}
+.menubar{
+    margin-top: 20px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.menubar:hover{
+    text-decoration: underline;
+}
+
+.navbarright{
+    width: 50%;
+    height: 60px;
+    /* background-color: rgb(255, 0, 187); */
+    float: left;
+}
+.navbar-signin{
+    margin-left: 310px;
+    width: 110px;
+    height: 60px;
+    /* background-color: blue; */
+    float: left;
+    border-bottom: 1px solid red;
+    /* position: absolute; */
+   
+    cursor: pointer;
+}
+
+.navbar-signin1{
+    width: 110px;
+    height: 60px;
+    /* background-color: rgb(34, 255, 0); */
+    float: left;
+    cursor: pointer;
+}
+.search-button{
+    margin-top: 10px;
+    
+    border: none;
+}
+
+.searchicon{
+    width: 20px;
+    /* margin-top: 10px; */
+}
+.cart-button{
+    border: none;
+}
+.sign-button{
+    border: none;
+}
+.helpdesk{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 62px;
+    background-color: #0067b8;
+    display: inline-block;
+    float: left;
+}
+.helpdesk-text{
+   
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.helpdesk-text:hover{
+    text-decoration: underline;
+  
+
+}
+
+
+.img-block{
+    width: 100%;
+    height: 460px;
+    /* background-color: blue; */
+    float: left;
+    position: relative;
+    cursor: pointer;
+   
+}
+.img-block img{
+    width: 100%;
+    height: 460px;
+   
+   /* safdddfdfdfdfdfdfdfdfdfdfd */
+   /* float: left; */
+}
+.mainframe-textdiv{
+    /* divs */
+
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    margin-left: 900px;
+}
+
+.mainframe-text{
+    /* div text header*/
+    display: inline-block;
+    font-weight: 500;
+    font-size: 45px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 0;
+}
+.mainframe-cont{
+    width: 450px;
+    font-size: 16px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* buttons */
+.mainframe-button{
+    background-color: #0067b8;
+    border-radius: 3px;
+    width: 115px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.mainframe-button:hover{
+    opacity: .8;
+}
+
+.arrowsdiv{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(0, 255, 42); */
+    float: left;
+}
+.arrowinside-bar{
+    margin: 0 auto;
+    width: 250px;
+    height: 60px;
+    /* background-color: rgb(255, 0, 132); */
+}
+.pause{
+    margin-top: 16px;
+    margin-left: 40px;
+    width: 32px;
+    display: inline-block;
+    float: left;
+}
+.arrowcode{
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.tale-icon{
+    
+    width: 100%;
+    height: 105px;
+    float: left;
+    /* background-color: aqua; */
+}
+.taleicon-1{
+    margin-left: 340px;
+    width: 200px;
+    height: 105px;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.mslogodiv{
+width: 100%;
+height: 60px;
+/* background-color: blue; */
+
+}
+.mslogo{
+   
+    margin-left: 60px;
+   
+    
+    width: 65px;
+}
+.mslogo-text{
+    text-align: center;
+}
+.tile-text{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 103, 184);
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.taleicon-2{
+    margin-left: 25px;
+    width: 250px;
+    height: 105px;
+    float: left;
+    /* background-color: rgb(226, 208, 43); */
+}
+.mslogoxbox{
+    margin-top: 11px;
+    margin-left: 100px;
+ 
+    width: 45px;
+}
+.taleicon-3{
+    margin-left: 18px;
+    width: 150px;
+    height: 105px;
+    float: left;
+    /* background-color: rgb(226, 43, 141); */
+}
+.mslogoms{
+    
+    margin-left: 40px;
+    width: 65px;
+}
+.taleicon-4{
+    margin-left: 15px;
+    width: 200px;
+    height: 105px;
+    float: left;
+    /* background-color: rgb(43, 226, 67); */
+}
+.mslogodevice{
+    margin-top: 11px;
+    margin-left: 55px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+.tale-ads{
+    width: 100%;
+    height: 500px;
+    float: left;
+    /* background-color: rgb(43, 104, 226); */
+}
+
+.tile-adsimgdiv1{
+    margin-left: 75px;
+    width: 325px;
+    height: 500px;
+    /* background-color: blueviolet; */
+    float: left;
+    cursor: pointer;
+}
+.tile-adsimg{
+    margin-top: 75px;
+    width: 325px;
+    height: 180px;
+    float: left;
+    /* background-color: aqua; */
+}
+.tile-adsimgsrc{
+    width: 325px;
+}
+.tile-adstext{
+    width: 325px;
+    height:245px ;
+    /* background-color: rgb(228, 26, 26); */
+    float: left;
+}
+.header-adtext{
+    float: left;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.describetext-ad
+{
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    float: left;
+    font-size: 16px;
+}
+.learn-more{
+    float: left;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:rgb(43, 104, 226) ;
+}
+.learn-more:hover{
+    text-decoration: underline;
+}
+
+.tile-adsimgdiv2{
+    margin-left: 25px;
+    width: 325px;
+    height: 500px;
+    /* background-color: rgb(226, 171, 43); */
+    float: left;
+    cursor: pointer;
+}
+.tile-adsimgdiv3{
+    margin-left: 25px;
+    width: 325px;
+    height: 500px;
+    /* background-color: rgb(76, 43, 226); */
+    float: left;
+    cursor: pointer;
+}
+.tile-adsimgdiv4{
+    margin-left: 25px;
+    width: 325px;
+    height: 500px;
+    /* background-color: rgb(226, 43, 52); */
+    float: left;
+    cursor: pointer;
+}
+
+
+.ad-img{
+    margin-top: 60px;
+    margin-left: 75px;
+    width: 100%;
+    height: 520px;
+    float: left;
+    /* background-color: rgb(43, 226, 113); */
+    position: relative;
+}
+
+.ad-img img{
+    margin-left: px;
+    width: 90%;
+    cursor: pointer;
+}
+.ad-imgtext{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+
+}
+.headp{
+    display: block;
+    margin-left: 140px;
+    margin-top: 120px;
+    width: 400px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34.8px;
+    /* float: left; */
+}
+.discriptionimg{
+    display: line;
+    /* float: ; */
+    width: 400px;
+    margin-left: 140px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.ad-imgtext button{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 170px;
+    height: 45px;
+    border-radius: 2px;
+    border-width: 0;
+    background-color:#0067b8;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    transition: background-color .30s;
+}
+.ad-imgtext button:hover{
+    /* opacity: 3; */
+    background-color:#035594 ;
+}
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color:rgba(212, 209, 209, 0.449);
+}
+table{
+    margin-top: 60px;
+    width: 100%;
+   
+    color: rgb(97, 97, 97);
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}   
+th{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+td{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+}
+td:hover{
+    text-decoration: underline;
+}
